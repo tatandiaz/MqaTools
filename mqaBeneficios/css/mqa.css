@@ -1,0 +1,724 @@
+﻿@charset "UTF-8";
+@charset 'iso-8859-15';
+
+#contenedor{
+	width: 	100%;
+	height: 100%;
+}
+
+.cnt_fnd{
+	background:#077BA3;
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.toplogo{
+	height: 85px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 0px 5px 1px #000;
+    position: absolute;
+    width: 100%;
+}
+
+.mqa_logo_img{
+	margin: 6px 0px 0px 10px;
+    width: 150px;
+    height: 80px;
+    top: -15px;
+    position: relative;
+}
+.logo_cliente{
+  height: 85px;
+    width: 90px;
+    position: absolute;
+    left: 1150px;
+
+}
+.Logo_DT{
+   height: 110px;
+    width: 110px;
+    position: absolute;
+    left:     42%;
+    top: -13px;
+}
+
+.tbContPnt{
+	width: 100%;
+	height: 100%;
+}
+#talleres{
+
+    position: relative;
+    left: -105px;
+    border-radius: 30px;
+}
+
+.CamposEntradas{
+	-webkit-box-shadow: 0px 0px 2px 0px #000;
+    border: solid 1px #000;
+    border-radius:20px;
+    font-size: 20px;
+    width: 500px;
+    position: relative;
+    padding: 8px 3px;
+    left: -4px;
+}
+#labelTalleres{
+    color: #FFF;
+    text-shadow: 0px 0px 2px #000;
+    font-family: Verdana;
+    font-size: 50px;
+    POSITION: relative;
+   left: 17px;
+    top: -142px;
+}
+#quitarServer{
+
+   color: black;
+    position: relative;
+    left: -80px;
+    top: 70px;
+    width: 150px;
+    font-size: 15px;
+    flex: auto;
+    border-color: #E8C42A;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -1em;
+    background: #E8C42A;
+    line-height: 1;
+    text-align: center;
+    transition: all 1s;
+    /* box-shadow: 0px 0px #797D7F inset; */
+    padding: 10px;
+}
+
+#quitarServer:hover {
+    transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+-o-transform : scale(0.9); /* Opera */
+-ms-transform : scale(0.9); /* IE9 */
+
+}
+#asignarTaller{
+
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 150px;
+    font-size: 15px;
+    flex: auto;
+    border-color: #E8C42A;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -1em;
+    background: #E8C42A;
+    line-height: 1;
+    text-align: center;
+    transition: all 1s;
+    /* box-shadow: 0px 0px #797D7F inset; */
+    padding: 10px;
+}
+#asignarTaller:hover {
+    transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+    -o-transform : scale(0.9); /* Opera */
+    -ms-transform : scale(0.9); /* IE9 */
+}
+.rotulos_wz{
+	color: #FFF;
+    text-shadow: 0px 0px 2px #000;
+    font-family: Verdana;
+    font-size: 50px;   
+}
+.btnPasos{
+	border: solid 1px #0096CB;
+    border-radius:30px;
+    width: 150px;
+    height: 47px;
+    text-shadow: 0px 0px 1px #000;
+    background:#0096CB;
+    color: #fff;
+    position: relative;
+    top: -20px;
+}
+.btnAgregarReto {
+    border: solid 1px #0096CB;
+    border-radius:30px;
+    width: 150px;
+    height: 47px;
+    text-shadow: 0px 0px 1px #000;
+    background:#0096CB;
+    color: #fff;
+    position: relative;
+    top: -20px;
+}
+.btnGuardarReto{
+    border: solid 1px #0096CB;
+    border-radius:30px;
+    width: 150px;
+    height: 47px;
+    text-shadow: 0px 0px 1px #000;
+    background:#0096CB;
+    color: #fff;
+    position: relative;
+    font-size: 18px;
+    left: -210px;
+}
+
+.btnSiguientes, .btnAnteriores{
+
+	border: solid 1px #0096CB;
+    border-radius:30px;
+    width: 150px;
+    height: 35px;
+    text-shadow: 0px 0px 1px #000;
+    background:#0096CB;
+    color: #fff;
+    position: relative;
+    top: -20px;
+}
+#asignarMesa {
+   color: black;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 150px;
+    font-size: 15px;
+    flex: auto;
+    border-color: #E8C42A;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -1em;
+    background: #E8C42A;
+    line-height: 1;
+    text-align: center;
+    transition: all 1s;
+    /* box-shadow: 0px 0px #797D7F inset; */
+    padding: 10px;
+}
+#asignarMesa:hover {
+     transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+    -o-transform : scale(0.9); /* Opera */
+    -ms-transform : scale(0.9); /* IE9 */
+}
+#mesa{
+    border: solid 1px #000;
+    font-size: 20px;
+    width: 500px;
+    position: relative;
+    padding: 8px 3px;
+    left: 10px;
+        border-radius: 30px;
+}
+#quitarTaller{
+ color: black;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 150px;
+    font-size: 15px;
+    flex: auto;
+    border-color: #E8C42A;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -1em;
+    background: #E8C42A;
+    line-height: 1;
+    text-align: center;
+    transition: all 1s;
+    /* box-shadow: 0px 0px #797D7F inset; */
+    padding: 10px;
+}
+
+#quitarTaller:hover {
+
+    transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+-o-transform : scale(0.9); /* Opera */
+-ms-transform : scale(0.9); /* IE9 */
+}
+
+#labelservidor {
+    position: relative;
+    top: -3px;
+    left: 4px;
+}
+
+#labelPuerto{
+    position: relative;
+    top: 1px;
+    left: 3px;
+}
+#labelMesas{
+    position: relative;
+    top: -75px;
+    left: 20px;
+
+}
+
+#asignarServer {
+color: black;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 150px;
+    font-size: 15px;
+    flex: auto;
+    border-color: #E8C42A;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -1em;
+    background: #E8C42A;
+    line-height: 1;
+    text-align: center;
+    transition: all 1s;
+    /* box-shadow: 0px 0px #797D7F inset; */
+    padding: 10px;
+
+}
+#asignarServer:hover {
+      transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+-o-transform : scale(0.9); /* Opera */
+-ms-transform : scale(0.9); /* IE9 */
+
+}
+
+#capasVaciasx300_1, #capasVaciasx300_2{
+	color: #FFF;
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+    width: 300px;
+}
+
+.tbContPnt table{
+	display: NONE;
+}
+
+.cpListaProcesos{
+	display: none;
+	position: absolute;
+    top: 120px;
+    right: 0px;
+    height: 80%;
+    width:  245px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background: #fff;
+    overflow-y: scroll;
+    height: 500px;
+    
+}
+
+.cpListaProcesos ul li {
+    margin: 0px 0px 13px 0px;
+    border: solid 1px #797D7F;
+    padding: 1px 2px;
+    background: #F4F0F0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.cpListaProcesos ul {
+    list-style-type: none;
+    position: relative;
+    left: -15px;
+    width: 195px;
+
+}
+
+#contBoard{
+	/*width: 675px;*/
+    width: 800px;
+	height: 100%;
+	position: fixed;
+}
+
+@keyframes parpadea{
+	from	{ opacity: 1.0; color: #fff; }
+	50% 	{ opacity: 0.4; color: #00f; }
+	to		{ opacity: 1.0; color: #fff; }
+}
+
+@-webkit-keyframes parpadea{
+	from	{ opacity: 1.0; color: #fff; }
+	50% 	{ opacity: 0.4; color: #00f; }
+	to		{ opacity: 1.0; color: #fff; }
+}
+
+.blinkMqa{
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    text-shadow: 0px 0px 1px #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    
+	animation: parpadea 3000ms infinite;
+	-webkit-animation: parpadea 3000ms infinite;
+}
+
+.circuloEstado{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 32px;
+	height: 32px;
+	-webkit-box-shadow: 0px 0px 4px 0px #000;
+	box-shadow: 0px 0px 4px 0px #000;
+}
+
+.elcorcho{
+	width: 100%;
+    height: 540px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h2.subtitulo{
+	font-family: sans-serif;
+    font-size: 13px;
+}
+
+.postit {
+    float: left;
+    width: 69px;
+    height: 70px;
+    overflow: hidden;
+    border: solid 1px #fff;
+    margin: 5px 5px;
+    font-size: 10px;
+    background: url(../img/Post-it_84x90.png) no-repeat;
+    padding: 14px 5px 5px 10px;
+    color: #fff;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.postitEspecial {
+    float: left;
+    width: 69px;
+    height: 71px;
+    overflow: hidden;
+    border: solid 1px #fff;
+    margin: 5px 5px;
+    font-size: 10px;
+    background: url(../img/Post-it_84x90.png) no-repeat;
+    padding: 14px 5px 5px 10px;
+    color: #fff;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.addComentario{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: -13px 0px 0px 52px;
+    box-shadow: -1px 1px 4px 0px #000;
+    -webkit-box-shadow: -1px 1px 4px 0px #000;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: solid 1px #000;
+    background-image: url(../img/mas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tituColor{
+	margin: 4px 0px;
+    display: block;
+    
+}
+.telon{
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	width: 100%; 
+	height: 100%; 
+	background: rgba(0,0,0,0.4);
+}
+#titleTelon{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -22px;
+}
+.telon div {
+      width: 600px;
+    height: 510px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin: -81px 0px 0px -112px;
+    background: #1c3044;
+    padding: 15px 26px 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 33px 7px #000;
+}
+
+.telon textarea#comentarios {
+    width: 100%;
+    position: relative;
+    top: -15px;
+    height: 400px;
+    background: #D0D3D4;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+#TextBeneficios{
+
+     width: 100%;
+    position: relative;
+    top: -15px;
+    height: 140px;
+    background: #D0D3D4;
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+
+#TextResponsable{
+    
+     width: 100%;
+    position: relative;
+    top: -15px;
+    height: 50px;
+    background: #D0D3D4;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#TextCategoria{
+    
+     width: 100%;
+    position: relative;
+    top: -15px;
+    height: 50px;
+    background: #D0D3D4;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+#btnAddComm {
+    top: -20px;
+        left: -215px;
+}
+
+.grpBtnAcciones{
+	float: right;
+}
+
+.nombreProcesoSelected{
+	font-size: 14px;
+    border-bottom: solid 1px #000;
+    margin: 1px 0px;
+    padding: 10px 0px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.postitMorado{
+	width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url(../img/Post-it_84x90.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 580px;
+    left: 820px;
+
+}
+
+.corchopaso2{
+	display: compact;
+}
+
+.eliminarMorado {
+	background-color: #EC4545;
+    width: 20px;
+    height: 17px;
+    position: relative;
+    margin: -21px 0px 0px -10px;
+    box-shadow: -1px 1px 4px 0px #000;
+    -webkit-box-shadow: -1px 1px 4px 0px #000;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: solid 1px #000;
+    padding: 2px 0px 0px 0px;
+    font-size: 13px;
+}
+
+#guardarTodo{
+    font-size: 16px;
+    font-weight: bold;
+    width: 110px;
+    float: right;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    top: 73%;
+    left: 855px;
+
+    transition: all 1s;
+}
+#guardarTodo:hover{
+    transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+    -o-transform : scale(0.9); /* Opera */
+    -ms-transform : scale(0.9); /* IE9 */
+}
+#volverMesa {
+    font-size: 16px;
+    font-weight: bold;
+    width: 110px;
+    float: right;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    top: 78%;
+    left: 855px;
+    transition: all 1s;
+}
+#volverMesa:hover{
+    transform : scale(0.9);
+    -moz-transform : scale(0.9); /* Firefox */
+    -webkit-transform : scale(0.9); /* Chrome - Safari */
+    -o-transform : scale(0.9); /* Opera */
+    -ms-transform : scale(0.9); /* IE9 */
+}
+#btnReto{
+        font-size: 16px;
+    font-weight: bold;
+    width: 110px;
+    float: right;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    top: 568px;
+    left: 855px;
+    transition: all 1s;
+    height: 33px;
+}
+
+#ChkAde{
+  font-size: 16px;
+    font-weight: bold;
+    width: 45px;
+    float: right;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    top: 565px;
+    left: 1150px;
+    transition: all 1s;
+    
+}
+.bien {
+    position: relative;
+    left:50px;
+}
+.bombillo{
+    position: relative;
+    left:225px;
+}
+.ejes{
+    position: relative;   
+    left:360px;
+}
+.ContenedorLogos{
+  position: relative;
+    top: -185px;
+        height: 10px;
+}
+.logomqa{
+     height: 65px;
+    width: 110px;
+    position: relative;
+    left: 20px;
+    top: -40px;
+}
+.logo{
+   height: 35px;
+    width: 195px;
+    position: relative;
+    left: 100%;
+    top: -170px;
+}
+.Logo_doit{
+        position: relative;
+    height: 100px;
+    width: 115px;
+    left: 72%;
+}
+.MarcaRegistrada{
+
+  position: relative;
+    top: -70px;
+    left: 25px;
+    font-size: 10.5px;
+    width: 90px;
+}
+.logoDT{
+
+       height: 85px;
+    width: 95px;
+    position: relative;
+    left: 30%;
+    top:-155px;
+}
+.tablero{
+
+    height: 100%;
+    width: 100%;
+    top: 60px;
+    position: absolute;
+}
+.AgregaReto{
+    display:none;
+    background: #1c3044;
+    height: 400px;
+    width: 505px;
+    position: relative;
+    left: 450px;
+    top: -600px;
+    border-radius: 15px;
+
+}
+.titleReto{
+        font-size: 35px;
+    text-align: center;
+    color: white;
+    top: -25px;
+    position: relative;
+}
+.TextReto{
+     width: 560px;
+    height: 270px;
+    position: relative;
+    top: -5px;
+    left: 22px;
+    border-radius: 10px;
+    background: #E6E3E3;
+    font-size: 25px;
+}
+
+.subtitulo{
+
+}

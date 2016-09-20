@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>MQA-Taller de procesos</title>
+		<link rel="stylesheet" type="text/css" href="css/mqa.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+	</head>
+	<body>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="js/MqaBoard.js"></script>
+        
+        <style>
+		html, body{
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			height: 100%;
+			font-family: sans-serif;
+		}
+		</style>
+		
+		<div id="contenedor" class="cnt_fnd">
+			<div class="toplogo">
+				<img src="img/mqa_logo.png" width="102" height="30" border="0" vspace="0" hspace="0" class="mqa_logo_img" />
+                <img src="img/Logo_DOIT.png" class="Logo_doit" />
+                <img src="img/Logo_DT.png" class="Logo_DT" />
+			</div>
+			
+			<table class="tbContPnt">
+				<tbody>
+					<tr>
+						<td width="100%" align="center">
+						
+							<div id="cpCargando" class="blinkMqa">Iniciando...</div>
+						
+							<table id="p1">
+								<tbody>
+									<tr>
+										<td align="left">
+											<label class="rotulos_wz" id="labelservidor">SERVIDOR</label>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<input id="servidor" type="text" class="CamposEntradas" placeholder="IP Servidor ">
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<label class="rotulos_wz" id="labelPuerto">PUERTO</label>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<input id="puerto" type="text" class="CamposEntradas" placeholder="ej. 82" value="82">
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											<input id="asignarServer" type="button" class="btnSiguientes" value="CONTINUAR">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						
+							<table id="p2">
+								<tbody>
+									<tr>
+										<td align="left">
+											<label class="rotulos_wz" id="labelTalleres">TALLERES</label>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<div id="capasVaciasx300_1">Cargando...</div>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<input id="quitarServer" type="button" class="btnAnteriores" value="VOLVER" style="float: left;">
+											<input id="asignarTaller" type="button" class="btnSiguientes" value="CONTINUAR" style="float: right;" disabled="disabled" >
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						
+							<table id="p3">
+								<tbody>
+									<tr>
+										<td align="left">
+											<label class="rotulos_wz" id="labelMesas">MACRO PROCESOS</label>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<div id="capasVaciasx300_2">Cargando...</div>
+										</td>
+									</tr>
+									<tr>
+										<td align="left">
+											<input id="quitarTaller" type="button" class="btnAnteriores" value="VOLVER" style="float: left;">
+											<input id="asignarMesa" type="button" class="btnSiguientes" value="CONTINUAR" style="float: right;" disabled="disabled">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+						
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+        <!---->
+        <div class="AgregaReto" display="none">
+            <p class="titleReto">¿Cual es tu reto?</p>
+            <textarea class="TextReto" placeholder="Escribe tu reto"></textarea>
+            <input type="button" class="btnGuardarReto" value="GUARDAR">
+        </div>
+            
+
+		
+		<div id="contBoard"></div>
+		<div id="listaProcesos" class="cpListaProcesos"></div>
+		
+		<script type="text/javascript">
+			var mqaCl = new MqaBoard();
+			mqaCl.initialize();
+		</script>
+		
+	</body>
+</html>
